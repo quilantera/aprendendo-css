@@ -1,0 +1,45 @@
+/* 
+  Seletores: Sao recursos do css para selecionar 
+  conjuntos de elementos de uma pagina (1 ou varios).
+  
+  - seletor de elemento (nome da tag ex: h1{})*
+  - id (# + nome do id {})
+  - class (. + nome da classe {})
+*/
+/* --------Elemento --------------- */
+h1{
+  color: orange;
+  font-style: italic;
+ 
+}
+/* ----------- ID  ------------ */
+
+#elemento1 {
+  /* só aplica em um unico elemento */
+  color: red;
+  font-weight: bold;
+}
+
+/*------------ Classe ------------*/
+.paragrafo{
+  text-align: center;
+  color: gray;
+}
+
+/* ----- Combinador -------------*/
+.secao1 {
+  background-color: silver;
+
+}
+/* seleciona  qualquer imagem dentro da .secao1 */
+.secao1 img {
+  width: 300px;
+  justify-self:center;
+  align-self:center;
+}
+.secao1 h3{
+  font-size: 30px;
+}
+.secao1 p{
+  text-align: justify;
+}
