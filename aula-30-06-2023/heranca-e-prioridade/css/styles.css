@@ -1,0 +1,23 @@
+body{
+  font-family: "roboto", sans-serif;
+  background-color: chocolate;
+  color: #fff;
+}
+.codigo{
+  font-family: monospace;
+  color: blue;
+}
+/* Prioridade = CSS define quais propriedades
+serão aplicadas ou sobrescritas
+
+*/
+h1, h2, h3{
+  background-color: brown;
+  text-decoration: line-through;
+}
+#meu-h1 {
+  background-color: green;
+}
+.custom-h1{
+  background-color: blue;
+}

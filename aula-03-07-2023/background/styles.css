@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+body{
+  height:100vh;
+  background-image : url("https://soulcodeacademy.org/assets/images/logo/light-logo.png"),url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+  background-repeat : no-repeat;
+  background-position: center,button;
+  background-attachment: fixed; /*deixa o background fixo*/
+  background-size: 300px; /*define a largura e altura do background*/
+
+}
+.card{
+  width: 400px;
+  height: 400px;
+  background-color: violet;
+  border-radius: 8px;
+  background-image: url("https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+
+  background-position: center;
+}

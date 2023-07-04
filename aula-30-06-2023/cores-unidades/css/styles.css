@@ -1,0 +1,38 @@
+.red1, .red2, .red3{
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;  
+}
+.red1{
+  background: red;
+}
+.red2{
+  background: #Ff0000;
+}
+.red3{
+  background: rgba(255,0,0);
+}
+.quadrado1{
+  width: 50%;
+  height: 400px;
+  background-color: #000234;
+  color: white;
+}
+.quadrado2{
+  width: 60vw;
+  height: 30vh;
+  background-color: #900239;
+}
+
+.quadrado3{
+  background-color: tomato;
+}
+/*
+Unidades de medida
+- Absolutas: px, cm, pt, etc;
+-relativas: vh (viewPort height)~;
+            vw (viewPort width)~;
+            em (baseado no pai)~;
+            rem(baseado no elemento raiz)~;
+            % (baseado no pai)~;
+*/
