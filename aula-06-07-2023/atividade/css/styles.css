@@ -1,0 +1,121 @@
+root {
+    --background2: #f6f7f9;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s;
+}
+body {
+    background-color: #f6f7f9;
+}
+h1, h2{
+  color: #0B1220;
+  padding-bottom: 1rem;
+}
+h1{
+  font-size: 2.2rem;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color:#0B1220;
+}
+header img {
+    height: 100%;
+}
+main {
+    padding: 3rem 8%;
+}
+.initial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articles-content {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    max-width: 500px;
+    min-width: 250px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+article:hover{
+  scale: 1.01;
+  transform: translateY(-4px);
+}
+article img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.article-content {
+    width: 60%; 
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.article-content h3 {
+    color: #0a3158;
+    text-align:center;  
+}
+.article-content p {
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color:#0a3158;
+  width: 120px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  border: 2px solid #0a3158;
+  padding: 8px;
+}
+button:hover{
+  background-color:#0a3158;
+  color: white; 
+}
+
+@media screen and (max-width: 800px) {
+  h1{
+    font-size: 30px;
+    padding: 1.4rem;
+  }
+    article {
+        flex-direction: column;
+        padding: 24px;
+    }
+    article img {
+        width: 100%;
+        height: 34vh;
+    }
+    .article-content{
+      width: 80%;
+    }
+    .article-content h3{
+      font-size: 24px;
+    }
+    .article-content p{
+      font-size: 16px;
+    }
+}
